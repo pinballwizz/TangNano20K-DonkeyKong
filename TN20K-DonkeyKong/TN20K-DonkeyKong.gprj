@@ -1,0 +1,72 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/scandoubler_new.v" type="file.verilog" enable="1"/>
+        <File path="proms/ROM3N.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/ROM3P.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/ROM7C.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/ROM7D.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/ROM7E.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/ROM7F.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/col_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/dkong_prog.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pal1_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/pal2_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/snd/dkong_cpu1.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/snd/dkong_cpu2.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/snd/dkong_wav.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-DonkeyKong.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dac.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dkong/dkong_adec.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dkong/dkong_col_pal.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dkong/dkong_hv_count.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dkong/dkong_main.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dkong/dkong_obj.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dkong/dkong_sound.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dkong/dkong_vram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dkong/dkong_wav_sound.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dkong/i8035ip.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_dpb.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_sp.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_sp2.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_sp3.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_sp5.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/alu.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/alu_pack-p.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/bus_mux.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/clock_ctrl.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/cond_branch.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/cond_branch_pack-p.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/db_bus.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/decoder.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/decoder_pack-p.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/dmem_ctrl.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/dmem_ctrl_pack-p.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/int.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/p1.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/p2.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/pmem_ctrl.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/pmem_ctrl_pack-p.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/psw.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/t48_comp_pack-p.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/t48_core.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/t48_core_comp_pack-p.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/t48_pack-p.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/t48_tb_pack-p.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t48/timer.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t80/T80.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t80/T80_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t80/T80_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t80/T80_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t80/T80_Reg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/t80/T80as.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-DonkeyKong.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
